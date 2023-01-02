@@ -15,3 +15,13 @@ Benefit - It records all the **details of your action** -> Writes it in the form
 Details - **Who** called the API? What **time** it was called? What **Parameters** were requested? What **Response** elements were returned by AWS service?
 
 By Default, AWS records all activities of past 90 days in an account using AWS Cloudtrail.
+
+## AWS CloudWatch
+
+### CloudWatch monitors the logs generated
+
+AWS CloudWatch logs can monitor your **System, application & custom log files from AWS EC2 instances & other sources**.
+
+We can use CloudWatch **metrics filter** to view particular errors in a **log file** & view **number of occurences** of that error within a specified time period.
+
+**Alarms** can be kept to notify when things go wrong.
